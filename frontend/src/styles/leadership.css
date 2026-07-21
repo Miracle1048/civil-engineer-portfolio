@@ -1,0 +1,565 @@
+/* ==========================================
+   LEADERSHIP & ACHIEVEMENTS
+========================================== */
+
+.leadership{
+    padding:120px 8%;
+    background:#ffffff;
+    position:relative;
+    overflow:hidden;
+}
+
+/* Blueprint Background */
+
+.leadership::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+    linear-gradient(rgba(15,23,42,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15,23,42,.03) 1px, transparent 1px);
+
+    background-size:45px 45px;
+
+    opacity:.45;
+
+    pointer-events:none;
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.leadership-section-header{
+
+    max-width:850px;
+
+    margin:0 auto 80px;
+
+    text-align:center;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    color:#f59e0b;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+.leadership-section-header h2{
+
+    font-size:48px;
+
+    color:#0f172a;
+
+    margin-bottom:20px;
+
+    line-height:1.3;
+
+}
+
+.leadership-section-header h2 span{
+
+    color:#f59e0b;
+
+}
+
+.leadership-section-header p{
+
+    color:#64748b;
+
+    line-height:1.9;
+
+    font-size:18px;
+
+}
+
+/* ==========================================
+   SUB HEADINGS
+========================================== */
+
+.sub-heading{
+
+    font-size:34px;
+
+    color:#0f172a;
+
+    margin-bottom:35px;
+
+    text-align:center;
+
+}
+
+/* ==========================================
+   WRAPPERS
+========================================== */
+
+.leadership-wrapper{
+
+    margin-bottom:90px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.achievement-wrapper{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.leadership-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.achievement-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+/* ==========================================
+   LEADERSHIP CARD
+========================================== */
+
+.leadership-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:35px;
+
+    position:relative;
+
+    border:1px solid #e2e8f0;
+
+    box-shadow:0 15px 40px rgba(15,23,42,.06);
+
+    transition:.35s;
+
+    overflow:hidden;
+
+}
+
+.leadership-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 55px rgba(15,23,42,.12);
+
+}
+
+.leadership-accent{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:6px;
+
+    background:#f59e0b;
+
+}
+
+.leadership-header{
+
+    display:flex;
+
+    gap:20px;
+
+    align-items:flex-start;
+
+    margin-bottom:25px;
+
+}
+
+.leadership-icon{
+
+    width:68px;
+
+    height:68px;
+
+    border-radius:18px;
+
+    background:#eef4ff;
+
+    color:#0f172a;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    transition:.3s;
+
+}
+
+.leadership-card:hover .leadership-icon{
+
+    background:#0f172a;
+
+    color:#fff;
+
+}
+
+.leadership-heading h3{
+
+    font-size:24px;
+
+    color:#0f172a;
+
+    margin-bottom:8px;
+
+}
+
+.leadership-heading h4{
+
+    font-size:17px;
+
+    color:#f59e0b;
+
+    font-weight:600;
+
+}
+
+.leadership-meta{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+    margin-bottom:22px;
+
+}
+
+.leadership-meta span{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#64748b;
+
+    font-size:14px;
+
+}
+
+.leadership-description{
+
+    color:#64748b;
+
+    line-height:1.9;
+
+    margin-bottom:30px;
+
+}
+
+.leadership-footer{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+}
+
+.leadership-link{
+
+    background:none;
+
+    border:none;
+
+    color:#0f172a;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.leadership-link:hover{
+
+    color:#f59e0b;
+
+}
+
+/* ==========================================
+   ACHIEVEMENT CARD
+========================================== */
+
+.achievement-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:35px;
+
+    position:relative;
+
+    border:1px solid #e2e8f0;
+
+    box-shadow:0 15px 40px rgba(15,23,42,.06);
+
+    transition:.35s;
+
+    overflow:hidden;
+
+}
+
+.achievement-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 55px rgba(15,23,42,.12);
+
+}
+
+.achievement-accent{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:6px;
+
+    background:#0f172a;
+
+}
+
+.achievement-icon{
+
+    width:72px;
+
+    height:72px;
+
+    border-radius:18px;
+
+    background:#fff7e6;
+
+    color:#f59e0b;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:25px;
+
+    transition:.3s;
+
+}
+
+.achievement-card:hover .achievement-icon{
+
+    background:#f59e0b;
+
+    color:#fff;
+
+}
+
+.achievement-content h3{
+
+    color:#64748b;
+
+    font-size:15px;
+
+    margin-bottom:10px;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+}
+
+.achievement-content h2{
+
+    color:#0f172a;
+
+    font-size:28px;
+
+    line-height:1.4;
+
+    margin-bottom:15px;
+
+}
+
+.achievement-content p{
+
+    color:#64748b;
+
+    line-height:1.8;
+
+}
+
+.achievement-footer{
+
+    margin-top:30px;
+
+}
+
+.achievement-link{
+
+    background:none;
+
+    border:none;
+
+    color:#0f172a;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.achievement-link:hover{
+
+    color:#f59e0b;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1100px){
+
+.leadership-grid,
+.achievement-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.leadership{
+
+padding:90px 6%;
+
+}
+
+.leadership-section-header h2{
+
+font-size:36px;
+
+}
+
+.sub-heading{
+
+font-size:28px;
+
+}
+
+.leadership-card,
+.achievement-card{
+
+padding:28px;
+
+}
+
+.leadership-header{
+
+flex-direction:column;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.leadership-section-header h2{
+
+font-size:30px;
+
+}
+
+.leadership-meta{
+
+flex-direction:column;
+
+gap:12px;
+
+}
+
+.achievement-content h2{
+
+font-size:22px;
+
+}
+
+.leadership-card,
+.achievement-card{
+
+padding:22px;
+
+}
+
+}

@@ -1,0 +1,684 @@
+/* ==========================================
+   RESEARCH & INNOVATION
+========================================== */
+
+.research{
+    padding:120px 8%;
+    background:#f8fafc;
+    position:relative;
+    overflow:hidden;
+}
+
+/* Blueprint Background */
+
+.research::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+        linear-gradient(rgba(15,23,42,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15,23,42,.03) 1px, transparent 1px);
+
+    background-size:45px 45px;
+
+    opacity:.4;
+
+    pointer-events:none;
+
+}
+
+/* ==========================================
+   SECTION HEADER
+========================================== */
+
+.research-section-header{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:850px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    color:#f59e0b;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+.research-section-header h2{
+
+    font-size:48px;
+
+    color:#0f172a;
+
+    margin-bottom:20px;
+
+    line-height:1.3;
+
+}
+
+.research-section-header h2 span{
+
+    color:#f59e0b;
+
+}
+
+.research-section-header p{
+
+    color:#64748b;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+/* ==========================================
+   RESEARCH CARD
+========================================== */
+
+.research-card{
+
+    position:relative;
+
+    z-index:2;
+
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:45px;
+
+    margin-bottom:80px;
+
+    box-shadow:0 20px 60px rgba(15,23,42,.08);
+
+    transition:.35s;
+
+}
+
+.research-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 30px 70px rgba(15,23,42,.14);
+
+}
+
+.research-accent{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:6px;
+
+    background:#f59e0b;
+
+    border-radius:24px 24px 0 0;
+
+}
+
+.research-header{
+
+    display:flex;
+
+    gap:25px;
+
+    align-items:flex-start;
+
+    margin-bottom:35px;
+
+}
+
+.research-icon{
+
+    width:75px;
+
+    height:75px;
+
+    border-radius:18px;
+
+    background:#eef4ff;
+
+    color:#0f172a;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    transition:.3s;
+
+}
+
+.research-card:hover .research-icon{
+
+    background:#0f172a;
+
+    color:#fff;
+
+}
+
+.research-heading span{
+
+    color:#f59e0b;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.research-heading h2{
+
+    margin-top:10px;
+
+    font-size:34px;
+
+    line-height:1.4;
+
+    color:#0f172a;
+
+}
+
+/* ==========================================
+   SUMMARY
+========================================== */
+
+.research-block{
+
+    margin-bottom:35px;
+
+}
+
+.research-label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:15px;
+
+    color:#0f172a;
+
+    font-weight:700;
+
+}
+
+.research-block p{
+
+    color:#64748b;
+
+    line-height:1.9;
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.research-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.research-item{
+
+    background:#f8fafc;
+
+    border:1px solid #e2e8f0;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    transition:.3s;
+
+}
+
+.research-item:hover{
+
+    background:#fff7e6;
+
+    transform:translateY(-4px);
+
+}
+
+.research-item-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#0f172a;
+
+    margin-bottom:15px;
+
+}
+
+.research-item-title svg{
+
+    color:#f59e0b;
+
+}
+
+.research-item p{
+
+    color:#64748b;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.research-footer{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+}
+
+.research-link{
+
+    background:none;
+
+    border:none;
+
+    color:#0f172a;
+
+    font-weight:700;
+
+    display:flex;
+
+    gap:10px;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.research-link:hover{
+
+    color:#f59e0b;
+
+}
+
+/* ==========================================
+   INNOVATION
+========================================== */
+
+.innovation-section{
+
+    position:relative;
+
+    z-index:2;
+
+    margin-bottom:80px;
+
+}
+
+.innovation-heading{
+
+    text-align:center;
+
+    font-size:34px;
+
+    color:#0f172a;
+
+    margin-bottom:45px;
+
+}
+
+.innovation-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.innovation-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    border:1px solid #e2e8f0;
+
+    position:relative;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    box-shadow:0 15px 40px rgba(15,23,42,.06);
+
+}
+
+.innovation-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 60px rgba(15,23,42,.12);
+
+}
+
+.innovation-accent{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:#f59e0b;
+
+}
+
+.innovation-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:18px;
+
+    background:#eef4ff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#0f172a;
+
+    margin-bottom:25px;
+
+    transition:.3s;
+
+}
+
+.innovation-card:hover .innovation-icon{
+
+    background:#0f172a;
+
+    color:#fff;
+
+}
+
+.innovation-content h3{
+
+    color:#0f172a;
+
+    margin-bottom:15px;
+
+    font-size:22px;
+
+}
+
+.innovation-content p{
+
+    color:#64748b;
+
+    line-height:1.8;
+
+}
+
+.innovation-footer{
+
+    margin-top:30px;
+
+}
+
+.innovation-link{
+
+    background:none;
+
+    border:none;
+
+    color:#0f172a;
+
+    font-weight:700;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.innovation-link:hover{
+
+    color:#f59e0b;
+
+}
+
+/* ==========================================
+   FUTURE VISION
+========================================== */
+
+.future-vision{
+
+    position:relative;
+
+    z-index:2;
+
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+
+    border-radius:24px;
+
+    padding:60px;
+
+    color:#fff;
+
+    text-align:center;
+
+}
+
+.vision-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:0 auto 25px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#f59e0b;
+
+}
+
+.future-vision h3{
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.future-vision p{
+
+    max-width:900px;
+
+    margin:auto;
+
+    line-height:2;
+
+    color:#cbd5e1;
+
+    font-size:18px;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1100px){
+
+.research-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.innovation-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.research{
+
+padding:90px 6%;
+
+}
+
+.research-header{
+
+flex-direction:column;
+
+}
+
+.research-section-header h2{
+
+font-size:36px;
+
+}
+
+.research-heading h2{
+
+font-size:28px;
+
+}
+
+.research-card{
+
+padding:30px;
+
+}
+
+.innovation-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.future-vision{
+
+padding:40px 30px;
+
+}
+
+.future-vision h3{
+
+font-size:28px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.research-section-header h2{
+
+font-size:30px;
+
+}
+
+.research-card{
+
+padding:22px;
+
+}
+
+.research-heading h2{
+
+font-size:24px;
+
+}
+
+.future-vision{
+
+padding:30px 20px;
+
+}
+
+.future-vision p{
+
+font-size:16px;
+
+}
+
+}
