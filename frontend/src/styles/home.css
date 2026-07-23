@@ -43,7 +43,16 @@ body{
 
     transition:.35s ease;
 
+    gap:40px;
+
+    padding:20px 8%;
+
+    background:#fff;
+
+    z-index:1000;
 }
+
+
 
 .navbar.scrolled{
 
@@ -64,13 +73,13 @@ body{
 .logo{
 
     display:flex;
-    margin-left: -40px;
 
     align-items:center;
 
     gap:15px;
 
     text-decoration:none;
+    flex-shrink:0;
 
     transition:.35s;
 
@@ -82,11 +91,19 @@ body{
 
 }
 
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
 .logo-icon{
 
-    width:55px;
+    width:80px;
 
-    height:55px;
+    height:80px;
 
     border-radius:50%;
 
@@ -141,6 +158,10 @@ body{
     list-style:none;
 
     gap:36px;
+
+    margin-left:auto;
+
+    margin-right:40px;
 
 }
 

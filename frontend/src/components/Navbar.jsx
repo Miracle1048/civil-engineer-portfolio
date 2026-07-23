@@ -66,7 +66,7 @@ export default function Navbar() {
         <a href="#home" className="logo">
 
           <div className="logo-icon">
-            🏗️
+            <img src={"../public/images/favicon.ico.png"} alt="logo" />
           </div>
 
           <div>
