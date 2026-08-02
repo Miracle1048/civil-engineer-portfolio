@@ -1,4 +1,5 @@
 import "../styles/home.css";
+import img from "../public/images/favicon.ico.png";
 import { useState, useEffect } from "react";
 import { Menu, X, Download } from "lucide-react";
 
@@ -66,7 +67,7 @@ export default function Navbar() {
         <a href="#home" className="logo">
 
           <div className="logo-icon">
-            <img src={"../public/images/favicon.ico.png"} alt="logo" />
+            <img src={img} alt="logo" />
           </div>
 
           <div>
