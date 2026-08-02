@@ -1,10 +1,13 @@
 import "../styles/projects.css";
+import img1 from "../public/images/constructionsupport.png"
+import img2 from "../public/images/RoadInspection.png"
+import img4 from "../public/images/ConcreteResearch.png"
 import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
     id: 1,
-    image: "/images/bounzy.jpg",
+    image: img1,
     category: "Construction",
     title: "Construction Support",
     description:
@@ -19,7 +22,7 @@ const projects = [
 
   {
     id: 2,
-    image: "/images/ferma.jpg",
+    image: img2,
     category: "Infrastructure",
     title: "Road Infrastructure Inspection",
     description:
@@ -49,7 +52,7 @@ const projects = [
 
   {
     id: 4,
-    image: "/images/tmd-research.jpg",
+    image: img4,
     category: "Research",
     title: "Sustainable Concrete Research",
     description:

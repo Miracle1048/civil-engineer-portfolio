@@ -1,4 +1,5 @@
 import "../styles/about.css";
+import img0 from "../public/images/AboutPhoto.png";
 import { ArrowRight, CheckCircle } from "lucide-react";
 
 export default function AboutPreview() {
@@ -10,7 +11,7 @@ export default function AboutPreview() {
         <div className="about-image">
 
           <img
-            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=700&q=80"
+            src={img0}
             alt="Civil Engineer"
           />
 
