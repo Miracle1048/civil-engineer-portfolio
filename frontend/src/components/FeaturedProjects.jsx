@@ -2,6 +2,9 @@ import "../styles/projects.css";
 import img1 from "../public/images/constructionsupport.png"
 import img2 from "../public/images/RoadInspection.png"
 import img4 from "../public/images/ConcreteResearch.png"
+import img3 from "../public/images/water research.png"
+import img5 from "../public/images/BIM & Digital construction.png"
+
 import ProjectCard from "./ProjectCard";
 
 const projects = [
@@ -37,7 +40,7 @@ const projects = [
 
   {
     id: 3,
-    image: "/images/groundwater.jpg",
+    image: img3,
     category: "Water Resources",
     title: "Groundwater Exploration",
     description:
@@ -67,7 +70,7 @@ const projects = [
 
   {
     id: 5,
-    image: "/images/bim.jpg",
+    image: img5,
     category: "Digital Construction",
     title: "BIM & Digital Construction",
     description:
