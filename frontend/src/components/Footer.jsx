@@ -68,15 +68,21 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/miracle-gabriel-junior"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ cursor: "pointer" }}
             >
               <FaLinkedin size={20} />
             </a>
 
             <a
-              href="#"
+              href="https://github.com/Miracle1048"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="GitHub"
+              style={{ cursor: "pointer" }}
             >
               <FaGithub size={20} />
             </a>
